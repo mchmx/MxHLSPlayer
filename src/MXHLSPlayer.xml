@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="mendix.mxhlsplayer.MXHLSPlayer" pluginWidget="true" needsEntityContext="true" offlineCapable="true"
+        supportedPlatform="Web"
+        xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>MXHLSPlayer</name>
+    <description>HLS Player for Mendix Web apps</description>
+    <icon/>
+    <properties>
+        <propertyGroup caption="HLS Player Configuration">
+            <property key="source" type="attribute" required="true">
+                <caption>Source</caption>
+                <description>String attribute that has the value of the source URL of the HLS stream</description>
+                <attributeTypes>
+                    <attributeType name="String"/>
+                </attributeTypes>
+            </property>
+        </propertyGroup>
+    </properties>
+</widget>
