@@ -1,2 +1,17 @@
-# MxHLSPlayer
-Web HLS stream player for Mendix apps
+## MXHLSPlayer
+[HLS Player for Mendix Web apps]
+
+## Features
+[feature highlights]
+
+## Usage
+[step by step instructions]
+
+## Demo project
+[link to sandbox]
+
+## Issues, suggestions and feature requests
+[link to GitHub issues]
+
+## Development and contribution
+[specify contribute]

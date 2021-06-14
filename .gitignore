@@ -1,0 +1,5 @@
+dist/
+node_modules/
+C:\\Users\\matthew.cha\\Dropbox (Mendix)\\_LocalMachine\\Documents\\Mendix\\HLS-mc-main/
+*.log
+.env

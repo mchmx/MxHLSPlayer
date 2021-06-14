@@ -1,0 +1,31 @@
+{
+  "name": "mxhlsplayer",
+  "widgetName": "MXHLSPlayer",
+  "version": "1.0.0",
+  "description": "HLS Player for Mendix Web apps",
+  "copyright": "2021 Mendix Technology bv",
+  "author": "MC",
+  "config": {
+    "projectPath": "C:\\Users\\matthew.cha\\Dropbox (Mendix)\\_LocalMachine\\Documents\\Mendix\\HLS-mc-main/",
+    "mendixHost": "http://localhost:8080",
+    "developmentPort": "3000"
+  },
+  "packagePath": "mendix",
+  "scripts": {
+    "start": "pluggable-widgets-tools start:web",
+    "build": "pluggable-widgets-tools build:web",
+    "lint": "pluggable-widgets-tools lint",
+    "lint:fix": "pluggable-widgets-tools lint:fix",
+    "prerelease": "npm run lint",
+    "release": "pluggable-widgets-tools release:web"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@mendix/pluggable-widgets-tools": "^9.0.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "npm": "^6.14.13",
+    "react-hls-player": "^3.0.1"
+  }
+}
